@@ -1,0 +1,39 @@
+{
+    "emp_details": [
+        {
+            "Name": "Gayatri",
+            "DOB": "13/12/1999",
+            "Height": "5 ft",
+            "City": "Dhule",
+            "State": "Maharashtra"
+        },
+        {
+            "Name": "Gauri",
+            "DOB": "17/12/1999",
+            "Height": "5.7 ft",
+            "City": "Gwalior",
+            "State": "Madhya Pradesh"
+        },
+        {
+            "Name": "Radhika",
+            "DOB": "13/1/1996",
+            "Height": "4.2 ft",
+            "City": "Agra",
+            "State": "Uttar Pradesh"
+        },
+        {
+            "Name": "Shubham",
+            "DOB": "27/2/1992",
+            "Height": "6.2 ft",
+            "City": "Jaipur",
+            "State": "Rajasthan"
+        },
+        {
+            "Name": "Swapnil",
+            "DOB": "3/3/1995",
+            "Height": "5.8 ft",
+            "City": "Mumbai",
+            "State": "Maharashtra"
+        }
+    ]
+}
