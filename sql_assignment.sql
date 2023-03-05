@@ -29,16 +29,16 @@ select count(*) as count from salespeople where (sname like '%A' or sname like '
 
 
 -- Q2 Display all the Salesperson whose all orders worth is more than Rs. 2000.
-select salespeople.sname, orders.amt from salespeople inner join orders on salespeople.snum=orders.snum where amt>2000;
-
+select orders.snum from orders where orders.amt>2000;
 
 -- Q3 Count the number of Salesperson belonging to Newyork.
 select count(*) as count from salespeople where city='Newyork';
 
 
 -- Q4 Display the number of Salespeople belonging to London and belonging to Paris.
-select count(*) as count from salespeople where city='Newyork' or city ='Paris';
+select salespeople.snum  from salespeople where city='London' or city ='Paris';
 
 
 -- Q5 Display the number of orders taken by each Salesperson and their date of orders.
 select orders.odate, salespeople.sname, count(*) as count from salespeople inner join orders on salespeople.snum=orders.snum group by salespeople.sname;
+
